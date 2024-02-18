@@ -1,0 +1,31 @@
+body
+{
+    /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap') */
+    background: #434040;
+    /* HSL - It stands 
+        1)Hue - It defines the type of the color.
+        2)Saturation - It defines the intensity or purity of the color.
+        3)Lightness - It defines that how much light you want to give to the color.
+    There is also something called HSLA (alpha is 0.0 to 1.0)
+    
+    
+    */
+    color: rgb(241, 246, 235);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    height: 200px;
+    margin: 200px;
+    padding: 20px;
+    width: 450px;
+    overflow-y: scroll;
+    text-overflow: clip;
+    background: red;
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-seriff';
+    overflow-y: scroll;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Design</title>
+    <style>
+      /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+    .container{
+        display: flex;
+        justify-content: space-around;
+    }
+      .card {
+        /* border: 2px solid rgb(238, 201, 201); */
+
+        /* outline-offset: 45px; */
+        border-radius: 40px;
+        width: 480px;
+        height: 650px;
+        display: flex;
+        position: relative;
+        top: 54px;
+
+        background-color: rgb(150, 153, 153);
+      }
+      .img {
+        /* border: 2px solid black; */
+        border-radius: 40px;
+        width: 400px;
+        height: 600px;
+        margin: auto;
+        position: relative;
+        top: 1%;
+        background-color: rgb(204, 206, 206);
+      }
+      .img > img {
+        position: absolute;
+        opacity: 0.8;
+        width: 80%;
+        height: 310px;
+        left: 10%;
+        top: 4%;
+
+        border-radius: 21px;
+      }
+      .content {
+        position: relative;
+      }
+      .nature {
+        position: absolute;
+        top: 350px;
+        left: 60px;
+        font-size: 20px;
+        color: rgb(136, 107, 72);
+      }
+      .Water {
+        position: absolute;
+        top: 350px;
+        left: 120px;
+        font-size: 20px;
+        color: rgb(136, 107, 72);
+      }
+      .para {
+        position: absolute;
+        top: 380px;
+        left: 60px;
+        font-size: 20px;
+        color: rgb(136, 107, 72);
+      }
+      button {
+        position: absolute;
+        top: 530px;
+        margin-left: 30%;
+        font-size: 20px;
+        color: rgb(136, 107, 72);
+        border-radius: 40px;
+        padding: 0px 30px;
+        background-color: rgb(171, 245, 220);
+        color: rgb(112, 112, 180);
+        cursor: pointer;
+      }
+      button.btn:hover {
+        background-color: rgb(89, 166, 141);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="img">
+          <img src="scenary.jpg" alt="scenary not available" />
+          <div class="content">
+            <span class="nature">Nature</span>
+            <span class="Water">Water</span>
+            <p class="para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              delectus quia rem? Facilis accusamus beatae nulla, atque aliquid
+              esse eligendi. Atque quod nobis officiis rerum?
+            </p>
+          </div>
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img">
+          <img src="scenary.jpg" alt="scenary not available" />
+          <div class="content">
+            <span class="nature">Nature</span>
+            <span class="Water">Water</span>
+            <p class="para">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              delectus quia rem? Facilis accusamus beatae nulla, atque aliquid
+              esse eligendi. Atque quod nobis officiis rerum?
+            </p>
+          </div>
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
